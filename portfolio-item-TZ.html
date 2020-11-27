@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ray's Portfolio</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        integrity="sha265-46qynGAkLSFpVbEBog43gnNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anoymous" />
+
+        <link href="https://fonts.googleapis.com/css?family+Source+Code+Pro:400,900|Source+Sans
+        +Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script src="https://kit.fontawesome.com/864842ab95.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- ----- Header ----- -->
+
+       <header>
+           <div class="logo">
+               <img src="Img/devjane.png" alt="">
+           </div>
+           <button class="nav-toggle" aria-label="toggle navigation">
+               <span class="hamburger"></span>
+           </button>
+           <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#service" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+       </header>
+        
+       <section class="intro" id="home" >
+        <h1 class="section__title section__title--intro">
+            Introducing <strong>TrackZone</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Strive For progress</p>
+        <img src="img/TrackZoneInHand.jpg" alt="picture of Ray" class="intro__img">
+    </section>
+
+            <ul class="list_of_skills">
+                <li>Swift</li>
+                <li>Xcode</li>
+                <li>Firebase</li>
+            </ul>
+
+    <div class="portfolio-item-individual">
+        <P>TrackZone uses the sensors 
+            within a user’s Phone to track their, average pace, distance and steps. TrackZone includes custom experiences with personalised profiles through signing up. 
+            Users can store workouts and progress onto their device. Users of TrackZone also have the ability to calculate their BMI through the app if they wish. Through this
+            experience, users can track their progress and abilities with ease and can strive for progress not perfection.</P>
+        <img src="Img/TrackZone.png" alt="">
+        <P>Research was conducted into the general fitness app market where demographic, features and verification were looked at.
+            I also did research into platforms and software that could be used to best create the mobile app. From this research the requirements of the app were made and
+            analysed and UML designs were made to break down the app
+        </P>
+        <img src="Img/TrackZoneDiagrams.png" alt="">
+        <P>After this, various prototypes of the application were made. First a paper prototype then a digital prototype, each with increasing fidelity. Following this the final IOS app 
+            was create using swift on Xcode.
+        </P>
+        <img src="Img/TrackZoneProtoTypes.png" alt="">
+    </div>
+
+
+
+        <!-- ----- Footer ----- -->
+        <footer class="footer">
+            <a href="mailto:rayeno741@gmail.com" class="footer__link">rayeno741@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href ="https://github.com/rayeno">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href ="https://www.linkedin.com/in/rainier-eno-118034187/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                    <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+
+
+
+
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ----- MAIN JS ----- -->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
