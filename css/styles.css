@@ -350,6 +350,7 @@ header{
 
 }
 
+
 @media (min-width: 600px){
     .about-me{
         display: grid;
@@ -380,6 +381,7 @@ header{
         position: relative;
         z-index: 2;
     }
+
 }
     /*Sills*/
 
@@ -557,6 +559,7 @@ header{
         margin-left: auto;
         margin-right: auto;
         line-height: 2em;
+        text-align: center;
 
     }
 
@@ -564,7 +567,7 @@ header{
         justify-content: right;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 80%;
     }
 
     .list_of_skills {
@@ -575,12 +578,11 @@ header{
         margin: .8em 8em;
         padding-bottom: 1em;
         display: flex;
-        animation: list_of_skills 2s;
     }
 
     .list_of_skills li {
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
         color: var(--clr-accent);
     }
 
@@ -589,7 +591,7 @@ header{
             Width: 0;
         }
         100%{
-            Width: 80%;
+            Width: 60%;
         }
     }
 

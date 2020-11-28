@@ -35,12 +35,12 @@
             </nav>
        </header>
         
-       <section class="intro" id="home" >
+       <section class="intro" id="home" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1500">
         <h1 class="section__title section__title--intro">
             Introducing <strong>TrackZone</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">Strive For progress</p>
-        <img src="img/TrackZoneInHand.jpg" alt="picture of Ray" class="intro__img">
+        <img src="Img/TrackZoneInHand.jpg" alt="picture of Ray" class="intro__img">
     </section>
 
             <ul class="list_of_skills">
@@ -54,7 +54,7 @@
             within a user’s Phone to track their, average pace, distance and steps. TrackZone includes custom experiences with personalised profiles through signing up. 
             Users can store workouts and progress onto their device. Users of TrackZone also have the ability to calculate their BMI through the app if they wish. Through this
             experience, users can track their progress and abilities with ease and can strive for progress not perfection.</P>
-        <img src="Img/TrackZone.png" alt="">
+        <img src="Img/TrackZone.png" alt="" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1500">
         <P>Research was conducted into the general fitness app market where demographic, features and verification were looked at.
             I also did research into platforms and software that could be used to best create the mobile app. From this research the requirements of the app were made and
             analysed and UML designs were made to break down the app
@@ -105,6 +105,12 @@
 
         <!-- ----- MAIN JS ----- -->
         <script src="js/index.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              duration: 4000,
+          });
+        </script>
 
     </body>
 </html>
